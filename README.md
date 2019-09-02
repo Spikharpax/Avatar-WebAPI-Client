@@ -12,7 +12,7 @@ Consultez le projet [Avatar](https://github.com/Spikharpax/Avatar-Serveur) pour 
 
 ***
 ## ★ Installation
-[Avatar Serveur](https://github.com/Spikharpax/Avatar-Serveur) doit être installé à la dernière version courante.
+[Avatar Serveur](https://github.com/Spikharpax/Avatar-Serveur) doit être installé à la dernière version >= 3.3
 
 1. Téléchargez le projet
 2. Créez un répertoire `C:\Avatar\Client`

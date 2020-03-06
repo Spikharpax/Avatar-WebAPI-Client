@@ -6,13 +6,13 @@ A.V.A.T.A.R est un assistant personnel à commandes vocales open source client-s
 Ce projet contient un client entièrement Web Speech API sans confidence.
 Si vous désirez une gestion locale du mot-clé déclencheur par [Microsoft Speech Engines](https://msdn.microsoft.com/en-us/library/gg650238.aspx), vous pouvez le télécharger [ici](https://github.com/Spikharpax/Avatar-Client)
 
-Vous devez impérativement télécharger et installer le serveur A.V.A.T.A.R [ici](https://github.com/Spikharpax/Avatar-Serveur)
+Vous devez impérativement télécharger et installer le serveur A.V.A.T.A.R [ici](https://github.com/Spikharpax/A.V.A.T.A.R)
 
-Consultez le projet [Avatar](https://github.com/Spikharpax/Avatar-Serveur) pour plus d'information.
+Consultez le projet [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R) pour plus d'information.
 
 ***
 ## ★ Installation
-[Avatar Serveur](https://github.com/Spikharpax/Avatar-Serveur) doit être installé à la dernière version >= 3.3
+[Avatar Serveur](https://github.com/Spikharpax/A.V.A.T.A.R) doit être installé à la dernière version >= 3.3
 
 1. Téléchargez le projet
 2. Créez un répertoire `C:\Avatar\Client`

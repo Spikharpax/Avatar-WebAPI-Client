@@ -1,5 +1,5 @@
 A.V.A.T.A.R Web Speech API Client
-============================
+=================================
 
 A.V.A.T.A.R est un assistant personnel à commandes vocales open source client-serveur dédié à la conception d'une maison intelligente et à l'internet des objets.
 

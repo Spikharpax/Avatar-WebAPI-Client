@@ -11,7 +11,7 @@ Consultez le projet [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R) pour plu
 
 ***
 ## ★ Installation
-[Avatar Serveur](https://github.com/Spikharpax/A.V.A.T.A.R) doit être installé à la dernière version >= 3.3
+[Avatar Serveur](https://github.com/Spikharpax/A.V.A.T.A.R) doit être installé à la dernière version >= 3.4
 
 1. Téléchargez le projet
 2. Créez un répertoire `C:\Avatar\Client`
@@ -22,8 +22,8 @@ Consultez le projet [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R) pour plu
 5. Vous pouvez ensuite supprimer les fichiers `AvatarWebAPIClient_<V1.X>.7z.001` et `AvatarWebAPIClient_<V1.X>.7z.002`
 6. Double-cliquez sur le fichier `C:\Avatar\Client\AvatarWebAPIClient.exe` pour démarrer le client et suivez la documentation
 
-	
-***	
+
+***
 ## ★ Plateformes supportées
 - [X] Windows 32/64 (7/8/10)
 

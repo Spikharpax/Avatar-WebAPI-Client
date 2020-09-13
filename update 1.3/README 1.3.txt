@@ -11,6 +11,9 @@ Mise à jour:
 
 Procédure d'installation :
 	- Copiez le répertoire "resources" dans <CLIENT>/
+		- ATTENTION !! Le fichier <CLIENT>/app/Avatar.config est à merger avec le votre si vous ne voulez pas le remplacer !
+		- Une seule propriété à été ajoutée dans la section "chrome": ==> "timeout_emit": 150 
+		  Vous pouvez l'ajouter (A L'IDENTIQUE, avec la virgule pour "full_screen" aussi...) dans votre fichier si vous voulez.
 	- Validez les remplacements de fichiers
 	- Supprimez le fichier <CLIENT>/resources/app/core/chrome.js
 	- N'oubliez pas de changer la propriété "version" en 1.3 dans le fichier de propriétés <CLIENT>/resources/app/Avatar.config

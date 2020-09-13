@@ -33,6 +33,9 @@ Consultez le projet [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R) pour plu
 
 ***
 ## ★ Versions
+**1.3 (13-09-2020)**
+- Optimisation de la communication entre A.V.A.T.A.R et Chrome pour une meilleure stabilité du dialogue et résoudre les problèmes de pertes de paquets réseau.
+
 **1.2 (12-06-2020)**
 - Possibilité de lire une URL d'un fichier audio sauvegardé sur le Serveur (compatibilité plug-in Google-Assistant V2.0)
 - possibilité de lire une URL

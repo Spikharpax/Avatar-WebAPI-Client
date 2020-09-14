@@ -2,6 +2,7 @@ let options = {
   AKA: true,
   listen: true,
   keywordTest: false,
+  stopForced: false,
   address : "avatar.ia.fr",
   port: 5200
 };
@@ -50,7 +51,7 @@ function Regonizer () {
           if(isRefresh) {
             start_listen();
             start_AKA(); // refresh AKA
-          } else
+          } else if (!options.stopForced)
               manageAKA(speechResult, threashold, true);
       }
     }
@@ -257,9 +258,17 @@ function ChromeEvents(ev) {
     case 'stop':
       stop_listen();
 			break;
+    case 'stopForced':
+      options.stopForced = true;
+      stop_listen();
+			break;
     case 'start':
+      options.stopForced = false;
       start_listen();
 			break;
+    case 'startForced':
+      start_listen();
+      break;
 		case 'stopAKA':
       stop_AKA();
 			break;

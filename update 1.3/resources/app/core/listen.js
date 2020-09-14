@@ -89,14 +89,16 @@ function isChromeStopped () {
   return ChromeStopped;
 }
 
-function stopChromeListen (next) {
+function stopChromeListen (next, forcemute) {
 
 			if (ChromeStopped) {
 				if (next) next();
 				return;
 			}
-
-			sse.emit('/AvatarClient', {command: "stop"});
+			if (forcemute)
+				sse.emit('/AvatarClient', {command: "stopForced"});
+			else
+				sse.emit('/AvatarClient', {command: "stop"});
 			setTimeout(() => {
 				if (next) next();
 			},Config.chrome.timeout_emit);
@@ -104,13 +106,16 @@ function stopChromeListen (next) {
 			ChromeStopped = true;
 }
 
-function startChromeListen (next) {
+function startChromeListen (next, forcemute) {
 
 			if (!ChromeStopped) {
 				if (next) next();
 				return;
 			}
-			sse.emit('/AvatarClient', {command: "start"});
+			if (forcemute)
+				sse.emit('/AvatarClient', {command: "startForced"});
+			else
+				sse.emit('/AvatarClient', {command: "start"});
 			setTimeout(() => {
 				if (next) next();
 			},Config.chrome.timeout_emit);
@@ -581,9 +586,9 @@ var AKA = exports.AKA = function () {
 
 var OnOffListen  = exports.OnOffListen = function(on) {
   if (on)
-      startChromeListen();
+      startChromeListen(null, true);
   else
-      stopChromeListen();
+      stopChromeListen(null, true);
 }
 
 

@@ -33,6 +33,11 @@ Consultez le projet [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R) pour plu
 
 ***
 ## ★ Versions
+**1.4 (04-02-2021)**
+- Optimisation de la communication entre A.V.A.T.A.R et Chrome pour une meilleure stabilité du dialogue
+- Optimisation du redémarrage automatique après une perte de connection
+- Mise à jour de la documentation
+
 **1.3 (13-09-2020)**
 - Optimisation de la communication entre A.V.A.T.A.R et Chrome pour une meilleure stabilité du dialogue et résoudre les problèmes de pertes de paquets réseau.
 

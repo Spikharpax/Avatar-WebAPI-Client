@@ -1,0 +1,14 @@
+{
+  "name": "AVATAR",
+  "description": "AVATAR Web Speech API Client",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": []
+    }
+  },
+  "icons": {
+    "16": "favicon.ico"
+  }
+}

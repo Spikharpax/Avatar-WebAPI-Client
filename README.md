@@ -33,6 +33,9 @@ Consultez le projet [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R) pour plu
 
 ***
 ## ★ Versions
+**1.5 (21-03-2021)**
+- Ajout des commandes "Quit", "Restart" et "Extinction du PC" du nouveau menu contextuel du serveur version 3.5
+
 **1.4 (04-02-2021)**
 - Optimisation de la communication entre A.V.A.T.A.R et Chrome pour une meilleure stabilité du dialogue
 - Optimisation du redémarrage automatique après une perte de connection
